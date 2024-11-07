@@ -224,7 +224,7 @@ public:
                 case LOCALE_enUS: localizedEntry = LOCALE_LICHKING_0; break;
                 default: localizedEntry = LOCALE_LICHKING_0;
                 }
-                AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, localizedEntry, GOSSIP_SENDER_MAIN, YESSKIPDK, "Are you sure you want to skip the starting zone?", 0, false);
+                AddGossipItemFor(player, GOSSIP_ICON_INTERACT_1, localizedEntry, GOSSIP_SENDER_MAIN, YESSKIPDK, "Вы уверены, что хотите пропустить начальную цепочку заданий Рыцаря Смерти?", 0, false);
             }
             player->TalkedToCreature(creature->GetEntry(), creature->GetGUID());
             SendGossipMenuFor(player, player->GetGossipTextId(creature), creature->GetGUID());
