@@ -11,7 +11,7 @@
 #                     1 - (Enabled)
 #
 
-Skip.Deathknight.Starter.Announce.enable = 0
+Skip.Deathknight.Starter.Announce.enable = 1
 
 #
 #    Skip.DeathKnight.Starter.Enable
